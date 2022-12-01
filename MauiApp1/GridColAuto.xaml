@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.GridColAuto">
+
+    <Grid ColumnDefinitions="Auto" HeightRequest="50">
+        <Button
+                Text="Hello"
+                ImageSource="arrow_down_black.png"
+                ContentLayout="Right, 2" />
+    </Grid>
+
+</ContentPage>
